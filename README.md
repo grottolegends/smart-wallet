@@ -111,3 +111,15 @@ make deploy
 
 ## Influences
 Much of the code in this repository started from Solady's [ERC4337](https://github.com/Vectorized/solady/blob/main/src/accounts/ERC4337.sol) implementation. We were also influenced by [DaimoAccount](https://github.com/daimo-eth/daimo/blob/master/packages/contract/src/DaimoAccount.sol), which pioneered using passkey signers on ERC-4337 accounts, and [LightAccount](https://github.com/alchemyplatform/light-account).
+
+## 🧪 Running tests
+
+This repository uses **Foundry** for testing Solidity smart contracts.
+
+### Prerequisites
+- Foundry installed (`foundryup`)
+
+### Run tests
+```bash
+forge test
+
